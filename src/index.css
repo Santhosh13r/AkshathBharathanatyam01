@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.fixed-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+/* home page css counter */
+.review-counter-section {
+  background: linear-gradient(135deg, #000000, #111111);
+  padding: 70px 0;
+  color: rgb(26, 14, 64);
+}
+
+.counter-box h2 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.counter-box p {
+  font-size: 14px;
+  color: #bfbfbf;
+  text-transform: uppercase;
+}
